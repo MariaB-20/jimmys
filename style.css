@@ -1,12 +1,16 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,
 body {
+    color: #000000;
+}
+
+body {
     font-size: 16px;
-    height: auto;
-    color: #202020;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .large-pad {
@@ -45,4 +49,61 @@ ul {
 
 a, a:hover {
     text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* HOME STYLES */
+
+body.home {
+    background-image: url('assets/home_background_de.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.menu-case {
+    margin-top: 25vh;
+    margin-bottom: 100px;
+}
+
+.logo-wrapper {
+    background-color: #ffffff;
+    min-width: 250px;
+}
+
+.logo-wrapper img {
+    padding: 40px 60px;
+}
+
+.btn-wrapper {
+    background-color: #000000;
+    min-width: 250px;
+    min-height: 300px;
+}
+
+.btn-black {
+    padding: 10px 30px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    min-width: 170px;
+    color: #ffffff;
+}
+
+.btn-black:hover {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+footer {
+    font-size: 0.875rem;
+}
+
+footer a {
+    color: #000000;
+    font-weight: 700;
 }
