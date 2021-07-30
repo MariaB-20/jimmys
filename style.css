@@ -219,8 +219,17 @@ form span a {
         min-height: 500px;
         height: 500px;
     }
+    .col-background.col-en {
+        height: 555px;
+    }
     .content-wrapper {
         margin-top: 500px;
+    }
+    .content-wrapper.content-wrapper-en {
+        margin-top: 555px;
+    }
+    .col-background.col-en {
+        background-position: 38% top;
     }
 }
 

@@ -35,7 +35,7 @@
         </div>
     </div>
 
-    <div class="content-wrapper d-flex flex-column justify-content-between large-pad">
+    <div class="content-wrapper content-wrapper-en d-flex flex-column justify-content-between large-pad">
         <img src="assets/jimmys_logo.png" srcset="assets/jimmys_logo.svg 1x" class="img-fluid logo mb-5">
        
         <div>
