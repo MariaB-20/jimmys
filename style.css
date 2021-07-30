@@ -1,0 +1,48 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    font-size: 16px;
+    height: auto;
+    color: #202020;
+}
+
+.large-pad {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media (max-width:1386px) {
+    .large-pad {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width:1199px) {
+    .large-pad {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .large-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
