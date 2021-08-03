@@ -1,13 +1,10 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
 html,
 body {
     color: #000000;
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     min-height: 100vh;
     height: 100%;
@@ -232,5 +229,60 @@ form span a {
         background-position: 38% top;
     }
 }
+
+body.covid-guide {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body.covid-guide a {
+    color: #000000;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.blue {
+    color: #00A6C1;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
+
+li {
+    position: relative;
+}
+
+li::before {
+    content: '-';
+    font-size: 1rem;
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+
+hr {
+    border: 1px solid #00A6C1;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
 
 
