@@ -25,8 +25,11 @@
             <a href="tel:+4319970010">+43-1-9970010</a>
             <span class="text-center text-md-left">Gerne stehen wir Ihnen werktags von 8:00-18:00 Uhr zur Verfügung.</span>
         </div>
-
     </footer>
+
+    <div class="background-container">
+        <img src="assets/home_background_de.jpg" class="img-fluid">
+    </div>
 
 
 
