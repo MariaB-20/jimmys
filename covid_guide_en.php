@@ -25,6 +25,7 @@
             <li>Telephone number</li>
             <li>Registration form (separate link in the e-mail)</li>
         </ul>
+        <p>If you have chosen the option "payment at the hotel" during the booking process, you will need to provide your credit card details and verify this credit card online (payment on site is not possible). Our flexible cancellation policy (free cancellation up to 3 days before arrival) still applies: We will charge your credit card at the earliest 3 days prior to arrival.</p>
 
         <hr class="my-5">
 
@@ -130,6 +131,24 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<script>
+    //smoothscroll
+    $('a[href^="#"]').not('[href="#"]').not('[href="#0"]').on('click', function (e) {
+                e.preventDefault();
+                
+                if ($(this).hasClass('nav-link')) {
+                    $('.navbar-collapse').collapse('hide');
+                }
+
+                var target = this.hash;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 500, 'swing');
+            });
+
+</script>
 
 </body>
 </html>
