@@ -120,10 +120,10 @@
         <p class="mb-0">If you have any further questions, please do not hesitate to contact us on the following e-mail address: <a href="mailto:office@jimmys.at">office@jimmys.at</a>
         <br>or by phone: weekdays from 08:00 - 18:00: <a href="tel:+4319970010">+43 - 1 - 997 00 10</a></p>
         <p class="mb-5">Only for emergencies in the apartment: <a href="+431997001010">+43 - 1 - 997 00 10 - 10</a></p>
-        <a href="#header" class="d-flex align-items-center mt-5 pt-3">
+        <a href="#header" class="d-flex justify-content-center justify-content-md-start align-items-center mt-5 pt-3">
             <span class="mr-4 mb-0 bold blue">Back to top</span>
             <img src="assets/arrow_up.png" src="assets/arrow_up.svg 1x" class="img-fluid">
-        </div>
+        </a>
     </div>
     
 
