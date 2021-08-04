@@ -7,12 +7,12 @@
 
     <div class="page-wrapper d-flex flex-column justify-content-between">
         
-        <div class="content-wrapper d-flex flex-column justify-content-around large-pad">
+        <div class="content-wrapper d-flex flex-column justify-content-center large-pad">
             <img src="assets/jimmys_logo.png" srcset="assets/jimmys_logo.svg 1x" class="img-fluid logo mb-5">
         
             <div>
                 <h1 class="mb-4">Stay in touch</h1>
-                <p class="mb-4">Subscribe to our newsletter and receive exclusive offers<br> and news about Jimmy’s Apartments directly by e-mail.</p>
+                <p class="mb-4 mb-xl-5">Subscribe to our newsletter and receive exclusive offers<br> and news about Jimmy’s Apartments directly by e-mail.</p>
 
                 <form>
                     <div class="row">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="large-pad footer-info d-flex flex-column lowercase pt-5 bk-bleu">
+        <div class="large-pad footer-info d-flex flex-column align-items-start lowercase pt-5 pb-md-5 pb-lg-0 bk-bleu">
                 <p class="mb-0"><strong>Bookings and more information:</strong></p>
                 <a href="#">jimmys.at</a>
                 <a href="mailto:office@jimmys.at">office@jimmys.at</a>

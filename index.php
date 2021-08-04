@@ -3,20 +3,19 @@
 
 <?php include_once "partials/head.php"; ?>
 
-<body class="home d-flex flex-column">
-    <div class="home-wrapper large-pad">
-        <div class="menu-case d-flex flex-column align-items-center align-items-md-start">
-            <div class="d-flex justify-content-center align-items-center logo-wrapper">
-                <img src="assets/jimmys_logo.png" srcset="assets/jimmys_logo.svg 1x" class="img-fluid">
-            </div>
-            <div class="d-flex flex-column justify-content-center align-items-center btn-wrapper">
-                <a href="de.php" class="btn btn-black mb-4">Deutsch</a>
-                <a href="en.php" class="btn btn-black">English</a>
-            </div>
+<body class="home d-flex flex-column justify-content-center">
+    
+    <div class="menu-case d-flex flex-column align-items-center align-items-md-start large-pad py-4 my-auto">
+        <div class="d-flex justify-content-center align-items-center logo-wrapper">
+            <img src="assets/jimmys_logo.png" srcset="assets/jimmys_logo.svg 1x" class="img-fluid">
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center btn-wrapper">
+            <a href="de.php" class="btn btn-black mb-4">Deutsch</a>
+            <a href="en.php" class="btn btn-black">English</a>
         </div>
     </div>
 
-    <footer class="d-flex flex-column align-items-center align-items-md-start flex-md-row large-pad mt-auto mb-5">
+    <footer class="d-flex flex-column align-items-center align-items-md-start flex-md-row large-pad pb-md-5">
         <div class="mr-md-5 mb-5 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
             <a href="mailto:office@jimmys.at">office@jimmys.at</a>
             <span class="text-center text-md-left">Am einfachsten, Sie schicken uns ein kurzes<br class="d-none d-md-block"> e-mail - wir Antworten wirklich schnell!</span>

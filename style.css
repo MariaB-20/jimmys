@@ -189,6 +189,13 @@ footer a {
     min-width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 40% top;
+}
+
+@media (orientation: landscape) {
+    .background-lang-container img.bk-img-en {
+        object-position: 20% top;
+    }
 }
 
 img.logo {
@@ -296,7 +303,7 @@ form span a {
         margin-left: -56%;
     }
     .background-lang-container img.bk-img-en {
-        margin-left: -41%;
+        margin-left: -48%;
     }
 }
 
@@ -306,7 +313,7 @@ form span a {
         margin-left: -109%;
     }
     .background-lang-container img.bk-img-en {
-        margin-left: -88%;
+        margin-left: -98%;
     }
 }
 
