@@ -66,10 +66,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-}
-
 a, a:hover {
     text-decoration: none;
 }
@@ -99,6 +95,7 @@ h1 {
 
 .background-container img {
     object-fit: cover;
+    object-position: center top;
     height: 100%;
     min-width: 100%;
 }
@@ -348,18 +345,6 @@ h3 {
 
 h2, h3 {
     font-weight: 700;
-}
-
-li {
-    position: relative;
-}
-
-li::before {
-    content: '-';
-    font-size: 1rem;
-    position: absolute;
-    left: -30px;
-    top: 0;
 }
 
 hr {
